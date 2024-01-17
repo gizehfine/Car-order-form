@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+/* fieldset {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 10px;
+} */
+fieldset {
+  height: 220px;
+}
+datalist{ 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 260px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+} 

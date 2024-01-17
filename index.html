@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/index.css">
+  <title>Car order</title>
+</head>
+<body>
+  <h1>Home work for CSS flexbox</h1>
+  <form>
+    <fieldset>
+      <legend>Личные данные</legend>
+      <div class="text">
+        <label>First Name</label>
+        <input type="text" class="name">
+      </div>
+      <div class="text">
+        <label>Last Name</label>
+        <input type="text" class="Fam">
+      </div>
+      <div class="text">
+        <label>Birthday</label>
+        <input type="datetime-local" id="data">
+      </div>
+      <div class="text">
+        <label>Gender</label>
+        <label>Мale</label>
+        <input type="radio"  name="male">
+        <label>Female</label>
+        <input type="radio"  name="female">
+      </div>
+      <div class="text">
+        <label>Drive Experience</label>
+        <select name="drive-Exp" id="drive-Exp">
+          <option value="---">-----------------</option>
+          <option value="expert">Expert</option>
+          <option value="more than 10">More than 10</option>
+          <option value="5-10">5-10</option>
+          <option value="2-5">2-5</option>
+          <option value="beginner">Beginner</option>
+        </select>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Contacts</legend>
+      <div class="text">
+        <label>Email</label>
+        <input type="email" id="email">
+      </div>
+      <div class="text">
+        <label>Phone</label>
+        <input type="text" id="phone">
+      </div>
+      <div class="text">
+        <label>Adress</label>
+        <input type="text" id="adress">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Car Info</legend>
+      <div class="text">
+        <label>Brand</label>
+        <select name="brand" id="brand">
+          <option value="---">----------------</option>
+          <option value="BMW">BMW</option>
+          <option value="Audi">Audi</option>
+          <option value="Vaz">Ваз</option>
+        </select>
+      </div>
+      <div class="text">
+          <label>Model</label>
+          <select name="model" id="model">
+            <option value="---">----------------</option>
+            <option value="m5">M5</option>
+            <option value="rs6">RS 6</option>
+            <option value="2106">2106</option>
+          </select>
+      </div>
+      <div class="text">
+        <label>Used</label>
+        <input type="checkbox" name="yes" id="yes">
+      </div>
+      <div class="text">
+          <label>Red</label>
+          <input type="checkbox" name="red">
+          <label>Gray</label>
+          <input type="checkbox" name="gray">
+          <label>Blue</label>
+          <input type="checkbox" name="blue">
+          <label>Black</label>
+          <input type="checkbox" name="black">
+          <label>Green</label>
+          <input type="checkbox" name="green">
+      </div>
+      <div class="text">
+        <label>Price</label>
+        <input type="range" name="price" min="1" max="11" step="1" list="price">
+      </div>
+        <div>
+        <datalist id = price>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </datalist> 
+        </div>      
+    </fieldset>
+  </form>
+  <div class="buttons">
+    <button>Cancle</button>
+    <button>Ok</button>
+  </div>
+</body>
+</html>
