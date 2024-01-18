@@ -1,4 +1,4 @@
-h1 {
+ h1 {
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ datalist{
   justify-content: flex-end;
 }
 
-.text {
+.models, .text{
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
@@ -39,3 +39,7 @@ button {
   align-items: center;
   margin: 20px 10px;
 } 
+
+#range {
+  width: 155px;
+}

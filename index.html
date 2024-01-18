@@ -12,26 +12,26 @@
     <fieldset>
       <legend>Personal Info</legend>
       <div class="text">
-        <label>First Name</label>
-        <input type="text" class="name">
+        <label for="name">First Name</label>
+        <input type="text" class="name" id="name">
       </div>
       <div class="text">
-        <label>Last Name</label>
-        <input type="text" class="Fam">
+        <label for="fam">Last Name</label>
+        <input type="text" class="Fam" id="fam">
       </div>
       <div class="text">
         <label>Birthday</label>
         <input type="datetime-local" id="data">
       </div>
       <div class="text">
-        <label>Gender</label>
-        <label>Мale</label>
-        <input type="radio"  name="male">
-        <label>Female</label>
-        <input type="radio"  name="female">
+        <span>Gender</span>
+        <label for="male">Мale</label>
+        <input type="radio"  name="male" id="male">
+        <label for="female">Female</label>
+        <input type="radio"  name="female" id="female">
       </div>
       <div class="text">
-        <label>Drive Experience</label>
+        <label for="drive-Exp">Drive Experience</label>
         <select name="drive-Exp" id="drive-Exp">
           <option value="---">-----------------</option>
           <option value="expert">Expert</option>
@@ -45,22 +45,22 @@
     <fieldset>
       <legend>Contacts</legend>
       <div class="text">
-        <label>Email</label>
+        <label for="email">Email</label>
         <input type="email" id="email">
       </div>
       <div class="text">
-        <label>Phone</label>
+        <label for="phone">Phone</label>
         <input type="text" id="phone">
       </div>
       <div class="text">
-        <label>Adress</label>
-        <input type="text" id="adress">
+        <label for="adress">Adress</label>
+        <input type="textarea" id="adress">
       </div>
     </fieldset>
     <fieldset>
       <legend>Car Info</legend>
-      <div class="text">
-        <label>Brand</label>
+      <div class="models">
+        <label for="brand">Brand</label>
         <select name="brand" id="brand">
           <option value="---">----------------</option>
           <option value="BMW">BMW</option>
@@ -68,8 +68,8 @@
           <option value="Vaz">Ваз</option>
         </select>
       </div>
-      <div class="text">
-          <label>Model</label>
+      <div class="models">
+          <label for="model">Model</label>
           <select name="model" id="model">
             <option value="---">----------------</option>
             <option value="m5">M5</option>
@@ -78,37 +78,35 @@
           </select>
       </div>
       <div class="text">
-        <label>Used</label>
+        <label for="yes">Used</label>
         <input type="checkbox" name="yes" id="yes">
       </div>
       <div class="text">
-          <label>Red</label>
-          <input type="checkbox" name="red">
-          <label>Gray</label>
-          <input type="checkbox" name="gray">
-          <label>Blue</label>
-          <input type="checkbox" name="blue">
-          <label>Black</label>
-          <input type="checkbox" name="black">
-          <label>Green</label>
-          <input type="checkbox" name="green">
+          <label for="red">Red</label>
+          <input type="radio" name="red" id="red">
+          <label for="gray">Gray</label>
+          <input type="radio" name="gray" id="gary">
+          <label for="blue">Blue</label>
+          <input type="radio" name="blue" id="blue">
+          <label for="black">Black</label>
+          <input type="radio" name="black" id="black">
+          <label for="green">Green</label>
+          <input type="radio" name="green" id="green">
       </div>
       <div class="text">
-        <label>Price</label>
-        <input type="range" name="price" min="1" max="11" step="1" list="price">
+        <label for="range">Price</label>
+        <input type="range" name="price" min="1" max="8" step="1" list="price" id="range">
       </div>
         <div>
         <datalist id = price>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
+          <option value="1">10</option>
+          <option value="2">20</option>
+          <option value="3">30</option>
+          <option value="4">40</option>
+          <option value="5">50</option>
+          <option value="6">60</option>
+          <option value="7">70</option>
+          <option value="8">80</option>
         </datalist> 
         </div>      
     </fieldset>
