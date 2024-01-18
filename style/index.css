@@ -43,3 +43,8 @@ button {
 #range {
   width: 155px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
