@@ -8,21 +8,17 @@ form {
   justify-content: center;
   align-items: center;
 }
-/* fieldset {
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  margin: 10px;
-} */
+
 fieldset {
   height: 220px;
 }
+
 datalist{ 
   display: flex;
   justify-content: flex-end;
 }
 
-.models, .text{
+.models, .text , .color{
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
@@ -30,15 +26,9 @@ datalist{
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
 }
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 10px;
-} 
 
 #range {
   width: 155px;
@@ -48,5 +38,6 @@ a {
   display: block;
   text-decoration: none;
   color: rgb(0, 0, 0);
-  text-align:center
+  text-align:center;
+  margin-top: 50px
 }

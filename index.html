@@ -26,9 +26,9 @@
       <div class="text">
         <span>Gender</span>
         <label for="male">Мale</label>
-        <input type="radio"  name="male" id="male">
+        <input type="radio"  name="gender" id="male">
         <label for="female">Female</label>
-        <input type="radio"  name="female" id="female">
+        <input type="radio"  name="gender" id="female">
       </div>
       <div class="text">
         <label for="drive-Exp">Drive Experience</label>
@@ -54,7 +54,11 @@
       </div>
       <div class="text">
         <label for="adress">Adress</label>
-        <input type="textarea" id="adress">
+        <textarea name="adress" id="adress" cols="20" rows="2"></textarea>
+      </div>
+      <div class="buttons">
+        <button type="reset" value="reset">Cancle</button>
+        <button type="submit" value="submit">Ok</button>
       </div>
     </fieldset>
     <fieldset>
@@ -81,17 +85,17 @@
         <label for="yes">Used</label>
         <input type="checkbox" name="yes" id="yes">
       </div>
-      <div class="text">
+      <div class="color">
           <label for="red">Red</label>
-          <input type="radio" name="red" id="red">
+          <input type="radio" name="color" id="red">
           <label for="gray">Gray</label>
-          <input type="radio" name="gray" id="gary">
+          <input type="radio" name="color" id="gary">
           <label for="blue">Blue</label>
-          <input type="radio" name="blue" id="blue">
+          <input type="radio" name="color" id="blue">
           <label for="black">Black</label>
-          <input type="radio" name="black" id="black">
+          <input type="radio" name="color" id="black">
           <label for="green">Green</label>
-          <input type="radio" name="green" id="green">
+          <input type="radio" name="color" id="green">
       </div>
       <div class="text">
         <label for="range">Price</label>
@@ -108,13 +112,9 @@
           <option value="7">70</option>
           <option value="8">80</option>
         </datalist> 
-        </div>      
+        </div>    
     </fieldset>
   </form>
-  <div class="buttons">
-    <button><a href="index.html">Cancle</a></button>
-    <button><a href="./pages/order.html">Ok</a></button>
-  </div>
   <a href="./pages/home.html">Home</a>
 </body>
 </html>
